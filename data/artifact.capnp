@@ -1,4 +1,7 @@
-@0xda7a3c24c13f41ac;  # Unique file ID, you should generate a new one
+using Go = import "/go.capnp";
+@0x85d3acc39d94e0f8;
+$Go.package("data");
+$Go.import("data/artifact");
 
 struct Artifact {
   header @0 : Header;
